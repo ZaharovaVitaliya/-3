@@ -19,9 +19,12 @@ namespace laba3
 
 
         ArrayList Student, res;
-        private void Form1_Load(object sender, EventArgs e)
+        public Form1()
         {
             InitializeComponent();
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
             Student = new ArrayList();
             res = new ArrayList();
@@ -57,6 +60,7 @@ namespace laba3
 
         private void button3_Click(object sender, EventArgs e)
         {
+
             res.Sort();
             dataGridView1.Rows.Clear();
             foreach (Student student in res)

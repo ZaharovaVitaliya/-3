@@ -11,13 +11,13 @@ namespace laba3
 
     {
         string name;
-        int Rost;
-        int Ves;
+        int rost;
+        int ves;
         public Student (string name, int rost, int ves)
         {
             this.name = name;
-            this.Rost = rost;
-            this.Ves = ves;
+            this.rost = rost;
+            this.ves = ves;
         }
         public string Name
         {
